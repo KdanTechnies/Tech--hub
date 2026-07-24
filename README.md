@@ -1,72 +1,54 @@
-# 🚀 [Company Name] — Official Website
+# JengaTech Africa
 
-Built with Next.js. Deployed with intention.
+The official website for **JengaTech Africa**, a technology company dedicated to building innovative digital solutions, empowering businesses, and advancing technology education across Africa.
 
----
-
-## What This Is
-
-This is the official frontend for **[JengaTech Africa]** , a tech company based in Nigeria building solutions that actually work for African businesses and individuals. The website is the first thing people see,  so we made sure it does its job: inform, convert, and impress.
-
-No backend, no database, no drama. Just a fast, clean, and responsive Next.js frontend doing what it's supposed to do.
+This project is a **frontend-only** application focused entirely on delivering a modern, responsive, and engaging user experience. All backend services, APIs, and business logic are intentionally outside the scope of this repository.
 
 ---
 
-## Pages
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" /> Overview
 
-Here's what's inside:
+This website was designed to establish a strong online presence for **JengaTech Africa**, providing visitors with an easy way to explore the company's services, products, educational initiatives, and consultation offerings.
 
-| Route | What It Does |
-|-------|-------------|
-| `/about` | Who we are, why we exist, and the people behind it |
-| `/explore` | A browse-friendly overview of everything we offer |
-| `/education` | Our tools and resources for learners and institutions |
-| `/business` | Solutions for businesses — SMEs, startups, enterprises |
-| `/our-apps` | All our products in one place |
-| `/consultation` | Book a session with our team |
-| `/contact` | Reach us the way that works for you |
-| `/faq` | The questions people always ask, answered honestly |
+The primary objective was to create a fast, responsive, and professional interface that effectively communicates the company's mission while encouraging user engagement.
 
 ---
 
-## Tech Stack
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" /> Features
 
-- **Framework** — [Next.js](https://nextjs.org/) (App Router)
-- **Styling** — Tailwind CSS *(or replace with whatever you used)*
-- **Deployment** — Vercel *(or your host of choice)*
-- **Language** — TypeScript *(or JavaScript or your choice)*
+### Company Website
 
-This is a **frontend-only** project. There's no API, no CMS, no auth layer. All content is either hardcoded or pulled from static data files.
-
----
-
-## Getting Started
-
-Clone it and run it locally,  it's straightforward:
-
-```bash
-git clone https://github.com/KdanTechnies/Tech--hub.git
-cd your repo
-npm install
-npm run dev
-```
-
-Then open [http://localhost:3000](http://localhost:3000) in your browser.
-
-To build for production:
-
-```bash
-npm run build
-npm start
-```
+- Modern Landing Page
+- About Company
+- Explore Services
+- Business Solutions
+- Education Programs
+- Products Showcase
+- Consultation Page
+- Contact Information
+- Frequently Asked Questions
+- Responsive Navigation
 
 ---
 
-## Project Structure
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="22" /> Tech Stack
 
-```
-.
-├── app/                    # Next.js App Router pages
+| Technology | Purpose |
+|------------|---------|
+| Next.js | React Framework |
+| React | User Interface |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Vercel | Deployment |
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" /> Project Structure
+
+```text
+jengatechafrica/
+│
+├── app/
 │   ├── about/
 │   ├── explore/
 │   ├── education/
@@ -75,57 +57,144 @@ npm start
 │   ├── consultation/
 │   ├── contact/
 │   ├── faq/
-│   └── page.tsx            # Homepage
-├── components/             # Reusable UI components
-├── public/                 # Static assets (images, icons, etc.)
-├── styles/                 # Global styles
-└── lib/                    # Utility functions and constants 
+│   └── page.tsx
+│
+├── components/
+│
+├── lib/
+│
+├── public/
+│
+├── styles/
+│
+├── package.json
+└── README.md
 ```
 
 ---
 
-## Customization Notes
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="22" /> Installation
 
-A few things to know before you touch anything:
+Clone the repository
 
-- **Content updates** - most text lives directly in the page files or in a `/data` or `/constants` folder. You don't need to touch component logic just to update copy.
-- **Images** - all static images live in `/public`. Keep them optimized; Next.js handles the rest with `<Image />`.
-- **Colors & fonts** - defined in `tailwind.config.ts` (or your global CSS). Change them in one place and they update everywhere.
+```bash
+git clone https://github.com/KdanTechnies/JengaTechAfrica.git
+```
 
----
+Navigate into the project
 
-## Deployment
+```bash
+cd Tech--hub
+```
 
-This project is ready to deploy on **Vercel** with zero configuration, just connect your GitHub repo and push. Every push to `main` triggers a new deployment automatically.
+Install dependencies
 
-For other platforms (Netlify, Railway, self-hosted), run `npm run build` and serve the `.next` folder.
+```bash
+npm install
+```
 
----
+Run the development server
 
-## Contributing
+```bash
+npm run dev
+```
 
-This is an internal project, but if you're on the team and making changes:
+Visit
 
-1. Branch off `main`.  don't push directly
-2. Keep components small and reusable
-3. Test on mobile before opening a PR most of our users are on phones
-4. Write clear commit messages, not just "fix" or "update"
-
----
-
-## License
-
-Private all rights reserved by **[JengaTech Africa]**. Do not redistribute.
-
----
-
-## Contact
-
-Got questions about the site? Reach the team:
-
-- 📧 [danielfrosh22@gmail.com](danielfrosh22@gmail.com)
-- 📍 Nigeria 🇳🇬
+```
+http://localhost:3000
+```
 
 ---
 
-*Built in house. Maintained with care.*
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="22" /> Responsive Design
+
+The interface is fully optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" width="22" /> UI/UX Goals
+
+- Deliver a modern corporate identity
+- Improve brand credibility
+- Clearly present products and services
+- Increase visitor engagement
+- Provide intuitive navigation
+- Ensure excellent mobile usability
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/githubactions/githubactions-original.svg" width="22" /> Project Scope
+
+This repository contains **only the frontend user interface** for **JengaTech Africa**.
+
+The project focuses on:
+
+- User Interface (UI)
+- User Experience (UX)
+- Responsive Design
+- Static Content Presentation
+- Frontend Performance Optimization
+
+The following are **not included** in this repository:
+
+- Backend Development
+- REST APIs
+- Authentication
+- Database Integration
+- Business Logic
+- Content Management System (CMS)
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="22" /> Usage Restrictions
+
+This project was developed as a custom frontend solution for **JengaTech Africa**.
+
+### Prohibited Actions
+
+The following actions are strictly prohibited without prior written permission from the copyright holder:
+
+- Copying or redistributing the source code.
+- Selling or commercially exploiting any portion of this project.
+- Republishing the interface under another name.
+- Removing copyright or ownership notices.
+- Claiming this work as your own.
+- Creating commercial derivatives without authorization.
+
+This repository is provided solely for **portfolio, demonstration, and educational purposes**.
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="22" /> Developer
+
+**Kalu Onuka Daniel**
+
+Frontend Developer
+
+GitHub
+
+```
+https://github.com/KdanTechnies
+```
+
+Website
+
+```
+https://jengatechafrica.com
+```
+
+---
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" width="22" /> License
+
+© 2026 Kalu ONuka Daniel. All Rights Reserved.
+
+This project was designed and developed by **Kalu Onuka Daniel** as the official frontend website for **JengaTech Africa**.
+
+This repository contains only the frontend implementation. Unauthorized copying, modification, redistribution, resale, or commercial use of this work, in whole or in part, is strictly prohibited without prior written permission from the copyright holder.
